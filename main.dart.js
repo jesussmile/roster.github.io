@@ -52722,7 +52722,7 @@ s=A.cE(a,!1,t.O)
 r=p.Mj(a)
 q=t.p
 return A.hc(o,o,A.Q6(A.cd(A.b([A.asB(o,B.mS,B.eP,B.G,B.ly,!1,B.l,o,o,new A.aEf(p),B.dr,A.b([B.Tv,B.TF,B.TA],q),B.p),A.es(A.yy(A.b([p.kn(s.a,"captain"),p.kn(s.b,"firstOfficer"),p.kn(s.c,"cabinCrew")],q),o,B.dr),1)],q),B.t,B.u,B.v),3),o,r)},
-Mj(a){var s=A.b([new A.my(B.Ig,B.l,B.bj,new A.aEj(a),"Type",B.er),new A.my(B.Iv,B.l,B.bj,new A.aEk(a),"Select",B.er),new A.my(B.oS,B.l,B.bj,new A.aEl(this,a),"Refresh",B.er)],t.Z3),r=this.z
+Mj(a){var s=A.b([new A.my(B.Ig,B.l,B.bj,new A.aEj(a),"Type",B.er),new A.my(B.Iv,B.l,B.bj,new A.aEk(a),"Select",B.er),new A.my(B.oS,B.l,B.bj,new A.aEl(this,a),"Save",B.er)],t.Z3),r=this.z
 r===$&&A.c()
 return A.aRo(r,B.bj,B.l,B.oT,s,new A.aEm(this))},
 kn(a,b){return new A.BR(new A.aEe(this,b,a),null,null,t.BZ)},
@@ -52944,7 +52944,7 @@ break
 case 76:s=j==="aviationEngTestLevel"||j==="aviationEngTestDateValidTill"?78:80
 break
 case 78:s=81
-return A.I(A.b7(A.b7(A.b7(p.ch.c.aY(0,g)).c.aY(0,f)).c.aY(0,"aviationEngText")).c.ar(0,i),$async$eA)
+return A.I(A.b7(A.b7(A.b7(p.ch.c.aY(0,g)).c.aY(0,f)).c.aY(0,"aviationEngTest")).c.ar(0,i),$async$eA)
 case 81:s=79
 break
 case 80:s=j==="groundClassCurrent"||j==="groundClassNext"?82:84
@@ -53186,7 +53186,7 @@ case 11:if(h==="IFRFrom"||h==="IFTTo")j.eW(a,o,p,"IFR")
 else if(h==="PPCLast"||h==="PPCCurrent"||h==="PPCtNext")j.eW(a,o,p,"PPC")
 else if(h==="reCurrentLast"||h==="reCurrentCurrent"||h==="reCurrentNext")j.eW(a,o,p,"reCurrent")
 else if(h==="routeCheckLast"||h==="routeCheckCurrent"||h==="routeCheckNext")j.eW(a,o,p,"routeCheck")
-else if(h==="aviationEngTestLevel"||h==="aviationEngTestDateValidTill")j.eW(a,o,p,"aviationEngText")
+else if(h==="aviationEngTestLevel"||h==="aviationEngTestDateValidTill")j.eW(a,o,p,"aviationEngTest")
 else if(h==="groundClassCurrent"||h==="groundClassNext")j.eW(a,o,p,"groundClass")
 else if(h==="CRMCurrent"||h==="CRMNext")j.eW(a,o,p,"CRM")
 else if(h==="evacuationCurrent"||h==="evacuationNext")j.eW(a,o,p,"evacuation")
