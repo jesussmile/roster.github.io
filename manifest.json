@@ -1,6 +1,6 @@
 {
-    "name": "ios",
-    "short_name": "ios",
+    "name": "bha_roster_realtime",
+    "short_name": "bha_roster_realtime",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
